@@ -1,0 +1,5 @@
+name: ezMOTD
+version: 1.0.0
+author: Ashley Bilbrey
+description: An easy pluign for server owners to show a message when players join the server.
+main: com.ashleybilbrey.ezMOTD.EzMOTD
