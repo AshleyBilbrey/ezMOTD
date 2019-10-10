@@ -1,5 +1,19 @@
 name: ezMOTD
-version: 1.0.0
+version: 1.0.1
 author: Ashley Bilbrey
 description: An easy pluign for server owners to show a message when players join the server.
-main: com.ashleybilbrey.ezMOTD.EzMOTD
+main: com.ashleybilbrey.ezmotd.EzMOTD
+commands:
+  ezmotd:
+    description: Displays info about the ezMOTD plugin.
+    usage: /ezmotd
+  motd:
+    description: Look at the current MOTD.
+    usage: /motd
+  setmotd:
+    description: Set the current MOTD.
+    usage: /setmotd <meesage>
+permissions:
+  setmotd:
+    description: This permission allows someone to set the current MOTD.
+    default: op
